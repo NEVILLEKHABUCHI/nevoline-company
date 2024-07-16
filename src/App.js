@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse,faHistory,faCogs,faCode,faFileAlt,faPalette} from '@fortawesome/free-solid-svg-icons';
-import { faChevronDown,faChevronUp} from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCogs,faCode,faFileAlt,faPalette} from '@fortawesome/free-solid-svg-icons';
+// import { faChevronDown,faChevronUp} from '@fortawesome/free-solid-svg-icons';
 
 export default function App(){
   return <AppContainer/>
@@ -54,7 +54,7 @@ function ContainerLeftTop({onClick,showDetails,theme}){
         <h2>NEVOLINE</h2>
       </div>
       <button onClick={onClick}>
-        <FontAwesomeIcon icon={showDetails?faChevronUp : faChevronDown}/>
+        <i className={`fa-solid ${showDetails? 'fa-chevron-up' : 'fa-chevron-down'}`}></i>
       </button>
     </div>
   )
@@ -64,11 +64,11 @@ function ContainerLeftBody({showDetails,theme,onPageChange,currentPage}){
   return(
     <div className={`containerLeftBody ${showDetails ? 'show' : '' } ${theme}`}>
       <div>
-      <button className={`${currentPage==='Home'? 'active':''}`} onClick={()=>onPageChange('Home')}><FontAwesomeIcon icon={faHouse} id='icon'/><p>Home</p></button>
-      <button className={`${currentPage==='About'?'active':''}`} onClick={()=>onPageChange('About')}><FontAwesomeIcon icon={faHistory} id='icon' /><p>About Us</p></button>
-      <button className={`${currentPage==='Services'?'active':''}`} onClick={()=>onPageChange('Services')}><FontAwesomeIcon icon={faCogs} id='icon' /><p>Services</p></button>
-      <button className={`${currentPage==='Projects'?'active':''}`} onClick={()=>onPageChange('Projects')}><FontAwesomeIcon icon={faCode} id='icon' /><p>Projects</p></button>
-      <button className={`${currentPage==='Blogs'?'active':''}`} onClick={()=>onPageChange('Blogs')}><FontAwesomeIcon icon={faFileAlt} id='icon' /><p>Blogs</p></button>
+      <button className={`${currentPage==='Home'? 'active':''}`} onClick={()=>onPageChange('Home')}><i class="fa-solid fa-house" id='icon'></i><p>Home</p></button>
+      <button className={`${currentPage==='About'?'active':''}`} onClick={()=>onPageChange('About')}><i class="fa solid fa-history" id='icon'></i><p>About Us</p></button>
+      <button className={`${currentPage==='Services'?'active':''}`} onClick={()=>onPageChange('Services')}><i class="fa solid fa-cogs" id='icon'></i><p>Services</p></button>
+      <button className={`${currentPage==='Projects'?'active':''}`} onClick={()=>onPageChange('Projects')}><i class="fa solid fa-code" id='icon'></i><p>Projects</p></button>
+      <button className={`${currentPage==='Blogs'?'active':''}`} onClick={()=>onPageChange('Blogs')}><i class="fa solid fa-file-alt" id='icon'></i><p>Blogs</p></button>
       </div>
     </div>
   )
@@ -77,7 +77,7 @@ function ContainerLeftBottom({showDetails,onThemeChange,theme}){
   return(
     <div className={`containerLeftBottom ${showDetails ? 'show' : ''} ${theme}`}>
       <div>
-      <p><FontAwesomeIcon icon={faPalette} id='icon'/><span>Theme</span></p>
+      <p><i class="fa solid fa-palette" id='icon'></i><span>Theme</span></p>
       
       <section>
         <input type='radio' value='light' id='light' name='theme' onChange={onThemeChange} />
