@@ -1,38 +1,571 @@
-.App {
-  text-align: center;
+.appContainer{
+width: 80vw;
+height: 80vh;
+display: flex;
+}
+/* Styling the left component */
+.containerLeft {
+width: 15vw;
+height: inherit;
+background-color: #1B1B1B;
+}
+.containerLeftTop{
+width: inherit;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-bottom: 1px solid #2A3439;
+}
+.containerLeftTop div{
+display: flex;
+gap: 1vw;
+}
+.containerLeftTop div p{
+width: 75px;
+height: 75px;
+border-radius: 50%;
+}
+.containerLeftTop div p img {
+width: inherit;
+height: inherit;
+border-radius: 50%;
+object-fit: cover;
+}
+.containerLeftTop div h2{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerLeftTop button{
+display: none;
+}
+.containerLeftBody{
+width: inherit;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.containerLeftBody div{
+display: flex;
+flex-direction: column;
+gap: 6vh;
+}
+.containerLeftBody button {
+display: flex;
+align-items: center;
+gap: 1vw;
+background-color: #1B1B1B;
+border: none;
+cursor: pointer;
+}
+.containerLeftBody button #icon{
+font-size: 1.2rem;
+color: #7BAFD4;
+}
+.containerLeftBody button p{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1rem;
+color: white;
+}
+.containerLeftBody  .active #icon{
+color: white;
+}
+.containerLeftBody .active  p{
+color: #7BAFD4;
+}
+.containerLeftBottom{
+width: inherit;
+height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 1px solid #2A3439;
+}
+.containerLeftBottom div{
+display: flex;
+flex-direction: column;
+gap: 2vh;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1rem;
+color: white;
+}
+.containerLeftBottom #icon {
+font-size: 1.2rem;
+color: #7BAFD4;
+}
+.containerLeftBottom p{
+display: flex;
+gap: 1vw;
+}
+.containerLeftBottom div section label{
+padding-left: 10px;
+color: gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Styling the center component */
+.containerCenter{
+width: 40vw;
+height: inherit;
+background-color: #111111;
+border-left: 1px solid #2A3439;
+border-right: 1px solid #2A3439;
+
+}
+/* Styling the homeContainer in the containerCenter component */
+.homeContainer {
+width: 40vw;
+height: 80vh;
+overflow-y: scroll;
+overflow-x: hidden;
+color: white;
+}
+.homeContainer::-webkit-scrollbar{
+width: 10px;
+}
+.homeContainer::-webkit-scrollbar-track{
+background-color: #2A3439;
+}
+.homeContainer::-webkit-scrollbar-thumb{
+background: gray;
+border-radius: 6px;
+}
+.homeContainer::-webkit-scrollbar-thumb:hover{
+background-color: #7BAFD4;
+}
+.homeContainer .top {
+width: inherit;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.homeContainer .top div p {
+display: flex;
+justify-content: center;
+}
+.homeContainer .top div p span{
+width: 4vw;
+border: 2px solid #7BAFD4;
+border-radius: 10px;
+}
+.homeContainer .body {
+width: inherit;
+height: max-content;
+}
+.homeContainer .body .top {
+width: inherit;
+height: 40vh;
+display: flex;
+gap: 1vw;
+}
+.homeContainer .body .top div {
+width: 17vw;
+height: 32vh;
+/* border: 1px solid white; */
+}
+.homeContainer .body .top div:first-of-type{
+height: max-content;
+padding: 2px;
+}
+.homeContainer .body .top div:first-of-type p{
+font-size: 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeContainer .body .top div:nth-of-type(2) img{
+width: inherit;
+height: inherit;
+object-fit: cover;
+border-radius: 20px;
+}
+.homeContainer .body .content {
+width: inherit;
+height: 40vh;
+display: flex;
+justify-content: center;
+gap: 1vw;
+padding-top: 1vh;
+}
+.homeContainer .body .content div {
+width: 17vw;
+height: 32vh;
+/* border: 1px solid white; */
+}
+.homeContainer .body .content div:first-of-type img{
+width: inherit;
+height: inherit;
+object-fit: cover;
+border-radius: 20px;
+}
+.homeContainer .body .content div:nth-of-type(2){
+height: max-content;
+margin-top: 5vh;
+}
+.homeContainer .body .content div:nth-of-type(2) p{
+font-size: 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styling the aboutContainer in the containerCenter content */
+.aboutContainer {
+width: 40vw;
+height: 80vh;
+overflow-y: scroll;
+overflow-x: hidden;
+color: white;
+}
+.aboutContainer::-webkit-scrollbar{
+width: 10px;
+}
+.aboutContainer::-webkit-scrollbar-track{
+background-color: #2A3439;
+}
+.aboutContainer::-webkit-scrollbar-thumb{
+background: gray;
+border-radius: 6px;
+}
+.aboutContainer::-webkit-scrollbar-thumb:hover{
+background-color: #7BAFD4;
+}
+.aboutContainer .top {
+width: inherit;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.aboutContainer .top div p {
+display: flex;
+justify-content: center;
+}
+.aboutContainer .top div p span{
+width: 4vw;
+border: 2px solid #7BAFD4;
+border-radius: 10px;
+}
+.aboutContainer .body {
+width: inherit;
+height: max-content;
+padding: 1vw;
+padding-bottom: 5vh;
+}
+.aboutContainer .body p{
+font-size: 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutContainer .body h3{
+display: flex;
+justify-content: center;
+color: #7BAFD4;
+}
+.aboutContainer .body #underline{
+display: flex;
+justify-content: center;
+}
+.aboutContainer .body #underline span {
+width: 2vw;
+border: 2px solid white;
+border-radius: 10px;
+}
+.aboutContainer .body ul{
+padding-left: 4vw;
+}
+.aboutContainer .body ul li{
+font-size: 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling the servicesContainer */
+.servicesContainer {
+width: 40vw;
+height: 80vh;
+overflow-y: scroll;
+overflow-x: hidden;
+color: white;
+}
+.servicesContainer .top {
+width: inherit;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.servicesContainer .top div p {
+display: flex;
+justify-content: center;
+}
+.servicesContainer .top div p span{
+width: 4vw;
+border: 2px solid #7BAFD4;
+border-radius: 10px;
+}
+.servicesContainer .body {
+width: inherit;
+height: 70vh;
+}
+
+/* Styling the projects container in the containerCenter component */
+.projectsContainer {
+width: 40vw;
+height: 80vh;
+overflow-y: scroll;
+overflow-x: hidden;
+color: white;
+}
+.projectsContainer .top {
+width: inherit;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.projectsContainer .top div p {
+display: flex;
+justify-content: center;
+}
+.projectsContainer .top div p span{
+width: 4vw;
+border: 2px solid #7BAFD4;
+border-radius: 10px;
+}
+.projectsContainer .body {
+width: inherit;
+height: 70vh;
+}
+
+/* Styling the blogs container in the containerCenter component */
+.blogsContainer {
+width: 40vw;
+height: 80vh;
+overflow-y: scroll;
+overflow-x: hidden;
+color: white;
+}
+.blogsContainer .top {
+width: inherit;
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.blogsContainer .top div p {
+display: flex;
+justify-content: center;
+}
+.blogsContainer .top div p span{
+width: 4vw;
+border: 2px solid #7BAFD4;
+border-radius: 10px;
+}
+.blogsContainer .body {
+width: inherit;
+height: 70vh;
+}
+/* Styling the right component */
+.containerRight{
+width: 25vw;
+height: inherit;
+background-color: #1B1B1B;
+}
+
+@media only screen and (max-width: 900px) { 
+.appContainer{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Styling the left component */
+.containerLeft {
+    width: inherit;
+    height: max-content;
+    /* overflow-y: scroll; */
+}
+.containerLeftTop{
+  height: 10vh;
+  display: flex;
+  gap: 5vw;
+}
+.containerLeftTop button{
+  display: block;
+  margin-top: 5px;
+  padding: 2px;
+  background-color: #7BAFD4;
+  border: none;
+}
+.containerLeftBody {
+  height: 25vh;
+}
+.containerLeftBody div{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 2vh;
+}
+.containerLeftTop button:focus {
+  outline: none;
+}
+.containerLeftBody, .containerLeftBottom {
+max-height: 0;
+overflow: hidden;
+transition: max-height 15s ease-out;
+}
+.containerLeftBody.show,.containerLeftBottom.show {
+max-height: max-content;
+}
+.containerLeftBody button{
+gap: 5vw;
+}
+.containerLeftBottom{
+width: inherit;
+height: 18vh;
+}
+.containerLeftBottom p{
+gap: 4vw;
+}
+/* Styling the center component */
+.containerCenter{
+    width: 90vw;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* padding-bottom: 4vh; */
+}
+.homeContainer {
+  width: 90vw;
+  height: max-content;
+  padding-bottom: 2vh;
+}
+.homeContainer .top {
+  width: inherit;
+  height: 10vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.homeContainer .top div p span{
+  width: 15vw;
+}
+.homeContainer .body .top {
+width: inherit;
+height: max-content;
+display: flex;
+flex-direction: column-reverse;
+gap: 2vh;
+padding-bottom: 2vh;
+}
+.homeContainer .body .top div {
+width: 70vw;
+height: 32vh;
+/* border: 1px solid white; */
+}
+.homeContainer .body .top div:first-of-type{
+height: max-content;
+padding: 2px;
+}
+.homeContainer .body .top div:first-of-type p{
+font-size: 1.2rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeContainer .body .content {
+width: inherit;
+height: max-content;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1vh;
+padding-top: 1vh;
+}
+.homeContainer .body .content div {
+width: 70vw;
+height: 32vh;
+}
+.homeContainer .body .content div:nth-of-type(2){
+margin-top: 1vh;
+}
+.aboutContainer {
+width: 90vw;
+height: max-content;
+/* padding-bottom: 5vh; */
 }
 
-.App-link {
-  color: #61dafb;
+.aboutContainer .top div p span{
+width: 15vw;
+}
+.aboutContainer .body {
+width: inherit;
+height: max-content;
+padding: 3vw;
+/* padding-bottom: 4vh; */
+}
+.aboutContainer .body #underline span {
+width: 10vw;
+border: 2px solid white;
+border-radius: 10px;
+}
+/* Styling the right component */
+.containerRight{
+    width: inherit;
+    height: 25vh;
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Themes */
+.containerLeft.light {
+background-color: #F7F7F7;
+}
+.containerCenter.light{
+background-color: #E5E4E2;
+}
+.containerRight.light {
+background-color: #F7F7F7;
+}
+.containerLeftTop.light {
+border-bottom: 1px solid #B2BEB5;
+}
+.containerLeftTop.light h2 {
+color: black;
+}
+.containerLeftBody.light button {
+background-color: #F7F7F7;
+}
+.containerLeftBody.light button p{
+color: black;
+}
+.containerLeftBottom.light {
+border-top: 1px solid #B2BEB5;
+}
+.containerLeftBottom.light p span{
+color: black;
+}
+.containerCenter.light{
+border-left: 1px solid #B2BEB5;
+border-right: 1px solid #B2BEB5;
+}
+.homeContainer.light{
+color: black;
+}
+.aboutContainer.light{
+color: black;
+}
+.servicesContainer.light{
+color: black;
+}
+.projectsContainer.light{
+color: black;
+}
+.blogsContainer.light{
+color: black;
+}
+.containerLeftBody.light  .active #icon{
+color: black;
+}
+.containerLeftBody.light .active  p{
+color: #7BAFD4;
+}
+.aboutContainer.light .body #underline span{
+border-bottom: 2px solid black;
 }
