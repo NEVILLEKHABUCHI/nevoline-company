@@ -427,8 +427,8 @@ background-color: #1B1B1B;
 
 @media only screen and (max-width: 900px) { 
 .appContainer{
-    width: 90vw;
-    height: 90vh;
+    width: 99vw;
+    height: 99vh;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -482,14 +482,14 @@ gap: 4vw;
 }
 /* Styling the center component */
 .containerCenter{
-    width: 90vw;
+    width: 99vw;
     height: 70vh;
     /* overflow-y: scroll;
     overflow-x: hidden; */
     /* padding-bottom: 4vh; */
 }
 .homeContainer {
-  width: 90vw;
+  width: 99vw;
   height: max-content;
   padding-bottom: 2vh;
 }
