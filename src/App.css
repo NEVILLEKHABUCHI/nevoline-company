@@ -119,8 +119,6 @@ border-right: 1px solid #2A3439;
 .homeContainer {
 width: 40vw;
 height: 80vh;
-overflow-y: scroll;
-overflow-x: hidden;
 color: white;
 }
 .homeContainer::-webkit-scrollbar{
@@ -154,8 +152,23 @@ border-radius: 10px;
 }
 .homeContainer .body {
 width: inherit;
-height: max-content;
+height: 70vh;
+overflow-y: scroll;
+overflow-x: hidden;
 }
+.homeContainer .body::-webkit-scrollbar{
+  width: 10px;
+  }
+  .homeContainer .body::-webkit-scrollbar-track{
+  background-color: #2A3439;
+  }
+  .homeContainer .body::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 6px;
+  }
+  .homeContainer .body::-webkit-scrollbar-thumb:hover{
+  background-color: #7BAFD4;
+  }
 .homeContainer .body .top {
 width: inherit;
 height: 40vh;
@@ -213,19 +226,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .aboutContainer {
 width: 40vw;
 height: 80vh;
-overflow-y: scroll;
-overflow-x: hidden;
 color: white;
-}
-.aboutContainer::-webkit-scrollbar{
-width: 10px;
-}
-.aboutContainer::-webkit-scrollbar-track{
-background-color: #2A3439;
-}
-.aboutContainer::-webkit-scrollbar-thumb{
-background: gray;
-border-radius: 6px;
 }
 .aboutContainer::-webkit-scrollbar-thumb:hover{
 background-color: #7BAFD4;
@@ -248,10 +249,25 @@ border-radius: 10px;
 }
 .aboutContainer .body {
 width: inherit;
-height: max-content;
+height: 70vh;
+overflow-y: scroll;
+overflow-x: hidden;
 padding: 1vw;
 padding-bottom: 5vh;
 }
+.aboutContainer .body::-webkit-scrollbar{
+  width: 10px;
+  }
+  .aboutContainer .body::-webkit-scrollbar-track{
+  background-color: #2A3439;
+  }
+  .aboutContainer .body::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 6px;
+  }
+  .aboutContainer .body::-webkit-scrollbar-thumb:hover{
+  background-color: #7BAFD4;
+  }
 .aboutContainer .body p{
 font-size: 1.2rem;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -282,8 +298,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .servicesContainer {
 width: 40vw;
 height: 80vh;
-overflow-y: scroll;
-overflow-x: hidden;
 color: white;
 }
 .servicesContainer .top {
@@ -305,6 +319,46 @@ border-radius: 10px;
 .servicesContainer .body {
 width: inherit;
 height: 70vh;
+overflow-y: scroll;
+overflow-x: hidden;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+padding-bottom: 4vh;
+}
+.servicesContainer .body::-webkit-scrollbar{
+  width: 10px;
+  }
+  .servicesContainer .body::-webkit-scrollbar-track{
+  background-color: #2A3439;
+  }
+  .servicesContainer .body::-webkit-scrollbar-thumb{
+  background: gray;
+  border-radius: 6px;
+  }
+  .servicesContainer .body::-webkit-scrollbar-thumb:hover{
+  background-color: #7BAFD4;
+  }
+.servicesContainer .body div{
+  width: 30vw;
+  height: max-content;
+  margin-top: 2vh;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding: 1vw;
+}
+.servicesContainer .body div img{
+  width: 28vw;
+  height: 50vh;
+  object-fit: cover;
+}
+.servicesContainer .body div h3{
+  display: flex;
+  justify-content: center;
+  color: #7BAFD4;
 }
 
 /* Styling the projects container in the containerCenter component */
@@ -429,13 +483,13 @@ gap: 4vw;
 .containerCenter{
     width: 90vw;
     height: 70vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
     /* padding-bottom: 4vh; */
 }
 .homeContainer {
   width: 90vw;
-  height: max-content;
+  height: 80vh;
   padding-bottom: 2vh;
 }
 .homeContainer .top {
@@ -447,6 +501,10 @@ gap: 4vw;
 }
 .homeContainer .top div p span{
   width: 15vw;
+}
+.homeContainer .body{
+  height: 60vh;
+  padding-bottom: 2vh;
 }
 .homeContainer .body .top {
 width: inherit;
@@ -484,11 +542,11 @@ width: 70vw;
 height: 32vh;
 }
 .homeContainer .body .content div:nth-of-type(2){
-margin-top: 1vh;
+margin-top: 0;
 }
 .aboutContainer {
 width: 90vw;
-height: max-content;
+height: 80vh;
 /* padding-bottom: 5vh; */
 }
 
@@ -497,14 +555,27 @@ width: 15vw;
 }
 .aboutContainer .body {
 width: inherit;
-height: max-content;
+height: 65vh;
 padding: 3vw;
-/* padding-bottom: 4vh; */
+overflow-y: scroll;
+padding-bottom: 10vh;
 }
 .aboutContainer .body #underline span {
 width: 10vw;
 border: 2px solid white;
 border-radius: 10px;
+}
+.servicesContainer {
+  width: 90vw;
+  height: 80vh;
+  color: white;
+}
+.servicesContainer .body div{
+  width: 80vw;
+}
+.servicesContainer .body div img{
+  width: 78vw;
+  height: 50vh;
 }
 /* Styling the right component */
 .containerRight{

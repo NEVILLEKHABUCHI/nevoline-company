@@ -120,7 +120,7 @@ function ContainerCenter({theme,currentPage}){
             </div>
             <div className='content'>
                 <div>
-                  <img src='/n1.jpg' alt='Nevoline'/>
+                  <img src='/Home.jpg' alt='Nevoline'/>
                 </div>
                 <div>
                   <p>Let's Create a Website According to Your Requirements &#128512;.</p>
@@ -192,7 +192,32 @@ function ContainerCenter({theme,currentPage}){
                   <p><span></span></p>
                 </div>
               </div>
-              <div className='body'></div>
+              <div className='body'>
+                <div>
+                <h3>Website Development</h3>
+                  <img src='/Web_dev.jpg' alt='Nevoline'/>
+                  <p>Unlock the potential of your online presence with our comprehensive website development services. We specialize in creating custom, responsive and user-friendly
+                    websites tailored to meet your unique business needs. From design to deployment, our expert team ensures your website not only looks great but also performs seamlessly across
+                     all devices.
+                  </p>
+                </div>
+                <div>
+                <h3>Graphic Designing</h3>
+                  <img src='/Graphic_Design.jpg' alt='Nevoline'/>
+                  <p>Transform your brand's visual identity with our exceptional graphic design services. Our creative team is dedicated to crafting stunning visuals that 
+                    communicate your message and captivate your audience. Fron logos and business cards to brochures and social media graphics, we deliver designs that are 
+                    both aesthetically pleasing and strategically effective. Let us bring your vision to life with compelling graphics that set you apart in the marketplace.
+                  </p>
+                </div>
+                <div>
+                <h3>Consultations</h3>
+                  <img src='/Consultation.jpg' alt='Nevoline'/>
+                  <p>Navigate the complexities of the digital landscape with our expert consultation services. Our experienced consultants provide personalized guidance and strategic 
+                    advice to help you achieve your business objectives. Whether you need assistance with website optimization, databases or brand strategy, we offer insights and solutions 
+                    tailored to your specific challenges and goals.
+                  </p>
+                </div>
+              </div>
             </div>
           )
           break;
