@@ -428,9 +428,10 @@ background-color: #1B1B1B;
 @media only screen and (max-width: 900px) { 
 .appContainer{
     width: 90vw;
-    height: max-content;
+    height: 90vh;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
 }
 /* Styling the left component */
 .containerLeft {
@@ -546,7 +547,7 @@ margin-top: 0;
 }
 .aboutContainer {
 width: 90vw;
-height: max-content;
+height: 80vh;
 /* padding-bottom: 5vh; */
 }
 
@@ -567,7 +568,7 @@ border-radius: 10px;
 }
 .servicesContainer {
   width: 90vw;
-  height: max-content;
+  height: 80vh;
   color: white;
 }
 .servicesContainer .body div{
