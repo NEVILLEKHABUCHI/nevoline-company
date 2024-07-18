@@ -573,7 +573,7 @@ height: 32vh;
 margin-top: 0;
 }
 .aboutContainer {
-width: 90vw;
+width: 99vw;
 height: 80vh;
 /* padding-bottom: 5vh; */
 }
@@ -594,10 +594,17 @@ border: 2px solid white;
 border-radius: 10px;
 }
 .servicesContainer {
-  width: 90vw;
+  width: 99vw;
   height: 80vh;
   color: white;
 }
+.servicesContainer .body {
+  width: inherit;
+  height: 65vh;
+  padding: 3vw;
+  overflow-y: scroll;
+  padding-bottom: 10vh;
+  }
 .servicesContainer .body div{
   width: 80vw;
 }
@@ -616,7 +623,7 @@ border-radius: 10px;
   height: max-content;
   font-size: 1.2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 5vh;
+  margin-bottom: 7vh;
 }
 }
 
@@ -682,3 +689,7 @@ border-bottom: 2px solid black;
 .containerRight.light .top p:first-of-type{
   color: black;
 }
+.servicesContainer.light .body div{
+  border: 1px solid black;
+}
+
