@@ -423,6 +423,33 @@ height: 70vh;
 width: 25vw;
 height: inherit;
 background-color: #1B1B1B;
+display: flex;
+justify-content: center;
+padding-top: 2vh;
+}
+.containerRight .top {
+  width: 20vw;
+  height: max-content;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerRight .top img{
+  width: inherit;
+  height: 35vh;
+  object-fit: cover;
+}
+.containerRight .top h3{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.containerRight .top p{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.containerRight .top p:nth-of-type(2){
+  color: #7BAFD4;
 }
 
 @media only screen and (max-width: 900px) { 
@@ -581,7 +608,14 @@ border-radius: 10px;
 /* Styling the right component */
 .containerRight{
     width: inherit;
-    height: 25vh;
+    height: max-content;
+    padding-bottom: 1vh;
+}
+.containerRight .top {
+  width: 80vw;
+  height: max-content;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 }
 

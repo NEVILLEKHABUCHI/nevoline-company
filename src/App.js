@@ -269,7 +269,12 @@ function ContainerCenter({theme,currentPage}){
 function ContainerRight({theme}){
   return(
     <div className={`containerRight ${theme}`}>
-
+      <div className='top'>
+        <img src='./Neville.jpg' alt='Nevoline'/>
+        <h3>N.L.KHABUCHI.</h3>
+        <p>C.E.O & Founder Nevoline.</p>
+        <p><i>Software Engineer.</i></p>
+      </div>
     </div>
   )
 }
