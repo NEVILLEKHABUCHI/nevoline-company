@@ -676,3 +676,9 @@ color: #7BAFD4;
 .aboutContainer.light .body #underline span{
 border-bottom: 2px solid black;
 }
+.containerRight.light .top h3{
+  color: black;
+}
+.containerRight.light .top p:first-of-type{
+  color: black;
+}
