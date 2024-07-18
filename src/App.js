@@ -238,7 +238,7 @@ function ContainerCenter({theme,currentPage}){
                     With its efficient way of communication via emails, it can be integrated into a large scale agrovet business.
                   </p><br/>
                   <p><b>CLIENT</b>: Nevoline Agrovet Limited</p><br/>
-                 <p><a href='myagrovet1.onrender.com' target='self'>View Project</a></p>
+                 <p><a href='https://myagrovet1.onrender.com' target='_blank' rel='noopener noreferrer'>View Project</a></p>
                 </div>
                 </div>
               </div>
