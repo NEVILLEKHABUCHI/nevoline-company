@@ -230,7 +230,17 @@ function ContainerCenter({theme,currentPage}){
                     <p><span></span></p>
                   </div>
                 </div>
-                <div className='body'></div>
+                <div className='body'>
+                  <h2><i>Website Projects</i></h2>
+                <div>
+                  <img src='/Nevoline_Agrovet.png' alt='Nevoline'/>
+                  <p>This is an e-commerce website for an agrovet providing functionalities for both admin and clients. 
+                    With its efficient way of communication via emails, it can be integrated into a large scale agrovet business.
+                  </p><br/>
+                  <p><b>CLIENT</b>: Nevoline Agrovet Limited</p><br/>
+                 <p><a href='myagrovet1.onrender.com' target='self'>View Project</a></p>
+                </div>
+                </div>
               </div>
             )
             break;
