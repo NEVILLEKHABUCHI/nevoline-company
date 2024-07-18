@@ -281,9 +281,12 @@ function ContainerRight({theme}){
     <div className={`containerRight ${theme}`}>
       <div className='top'>
         <img src='./Neville.jpg' alt='Nevoline'/>
-        <h3>N.L.KHABUCHI.</h3>
+        <h3>N.L. KHABUCHI,</h3>
         <p>C.E.O & Founder Nevoline.</p>
-        <p><i>Software Engineer.</i></p>
+        <p><i>Software Engineer.</i></p><br/>
+        <p><i class="fa-solid fa-quote-left"></i>At Nevoline Tech Solutions, our mission is to empower businesses through cutting-edge technology and crerative solutions. 
+        Whether you're looking to build a dynamic website, create compelling graphics, or seek expert consultation, our team is here to support your goals. 
+        We take pride in our commitment to quality and customer satisfaction. Thank you for trusting us with your tech needs. Let's innovate together!<i class="fa-solid fa-quote-right"></i></p>
       </div>
     </div>
   )
