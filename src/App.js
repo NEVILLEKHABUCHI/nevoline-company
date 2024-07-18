@@ -288,6 +288,11 @@ function ContainerRight({theme}){
         Whether you're looking to build a dynamic website, create compelling graphics, or seek expert consultation, our team is here to support your goals. 
         We take pride in our commitment to quality and customer satisfaction. Thank you for trusting us with your tech needs. Let's innovate together!<i class="fa-solid fa-quote-right"></i></p>
       </div>
+      <div className='links'>
+        <a href='https://x.com/KhabuchiN?t=Lmpf5wL1TFstO3BK7YK9Dw&s=09' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-x-twitter"></i></a>
+        <a href='https://www.linkedin.com/in/neville-khabuchi-b65478261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-linkedin"></i></a>
+        <a href='https://github.com/NEVILLEKHABUCHI' target='_blank' rel='noopener noreferrer'> <i class="fa-brands fa-github"></i></a>
+        </div>
     </div>
   )
 }
