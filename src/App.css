@@ -504,7 +504,7 @@ overflow-y: scroll;
 }
 .containerRight .top img{
   width: inherit;
-  height: 35vh;
+  max-height: 100vh;
   object-fit: cover;
 }
 .containerRight .top h3{
