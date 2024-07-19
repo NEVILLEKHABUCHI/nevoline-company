@@ -193,7 +193,6 @@ margin: 1vh 0;
 .homeContainer .body .content div {
 width: 17vw;
 height: 32vh;
-/* border: 1px solid white; */
 }
 .homeContainer .body .content div:first-of-type img{
 width: inherit;
@@ -436,8 +435,6 @@ border-radius: 10px;
 .blogsContainer {
 width: 40vw;
 height: 80vh;
-overflow-y: scroll;
-overflow-x: hidden;
 color: white;
 }
 .blogsContainer .top {
@@ -457,9 +454,24 @@ border: 2px solid #7BAFD4;
 border-radius: 10px;
 }
 .blogsContainer .body {
-width: inherit;
-height: 70vh;
-}
+  width: inherit;
+  height: 70vh;
+  overflow-y: scroll;
+ 
+  }
+  .blogsContainer .body::-webkit-scrollbar{
+    width: 10px;
+    }
+    .blogsContainer .body::-webkit-scrollbar-track{
+    background-color: #2A3439;
+    }
+    .blogsContainer .body::-webkit-scrollbar-thumb{
+    background: gray;
+    border-radius: 6px;
+    }
+    .blogsContainer .body::-webkit-scrollbar-thumb:hover{
+    background-color: #7BAFD4;
+    }
 /* Styling the right component */
 .containerRight{
 width: 25vw;
@@ -707,6 +719,11 @@ border-radius: 10px;
   width: 78vw;
   height: 50vh;
 }
+.blogsContainer {
+  width: 99vw;
+  height: 80vh;
+  color: white;
+}
 /* Styling the right component */
 .containerRight{
   overflow-y: unset;
@@ -798,4 +815,9 @@ border-bottom: 2px solid black;
 .projectsContainer.light .body div p:nth-of-type(3) a{
   color: white;
 }
-
+/* .containerRight.light .top p{
+  color: black;
+} */
+.containerRight.light .top p:nth-of-type(3){
+  color: black;
+}
