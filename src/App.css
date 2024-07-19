@@ -545,7 +545,6 @@ overflow-y: scroll;
 .containerLeft {
     width: inherit;
     height: max-content;
-    /* overflow-y: scroll; */
 }
 .containerLeftTop{
   height: 10vh;
@@ -713,7 +712,7 @@ border-radius: 10px;
   overflow-y: unset;
     width: inherit;
     height: max-content;
-    padding-bottom: 2vh;
+    padding-bottom: 10vh;
   
 }
 .containerRight .top {
