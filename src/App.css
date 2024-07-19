@@ -592,9 +592,6 @@ gap: 4vw;
 .containerCenter{
     width: 99vw;
     height: 70vh;
-    /* overflow-y: scroll;
-    overflow-x: hidden; */
-    /* padding-bottom: 4vh; */
 }
 .homeContainer {
   width: 99vw;
@@ -626,14 +623,13 @@ padding-bottom: 2vh;
 .homeContainer .body .top div {
 width: 70vw;
 height: 32vh;
-/* border: 1px solid white; */
 }
 .homeContainer .body .top div:first-of-type{
 height: max-content;
 padding: 2px;
 }
 .homeContainer .body .top div:first-of-type p{
-font-size: 1.2rem;
+font-size: 0.8rem;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .homeContainer .body .content {
