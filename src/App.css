@@ -536,7 +536,7 @@ overflow-y: scroll;
 @media only screen and (max-width: 900px) { 
 .appContainer{
     width: 99vw;
-    height: 100vh;
+    height: 99vh;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
