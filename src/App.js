@@ -231,7 +231,7 @@ function ContainerCenter({theme,currentPage}){
                   </div>
                 </div>
                 <div className='body'>
-                  <h2><i>Website Projects</i></h2>
+                  <h4><i>Website Projects</i></h4>
                 <div>
                   <img src='/Nevoline_Agrovet.png' alt='Nevoline'/>
                   <p>This is an e-commerce website for an agrovet providing functionalities for both admin and clients. 
