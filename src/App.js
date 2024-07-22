@@ -240,6 +240,16 @@ function ContainerCenter({theme,currentPage}){
                   <p><b>CLIENT</b>: Nevoline Agrovet Limited</p><br/>
                  <p><a href='https://myagrovet1.onrender.com' target='_blank' rel='noopener noreferrer'>View Project</a></p>
                 </div>
+                <div>
+                  <img src='/Getters_Constitution.jpg' alt='Nevoline'/>
+                  <p>
+                  This is a constitution website for a group(chama). 
+                  It provides for table of contents which directs a user to various articles and sub-articles of that particular constitution thereby making work 
+                  easier for a member who wants to go through the constitution. It is better than reading several pdf pages.
+                  </p><br/>
+                  <p><b>CLIENT</b>: The Go-Getters Youth Group.</p><br/>
+                 <p><a href='https://gogetters-constitution.netlify.app/' target='_blank' rel='noopener noreferrer'>View Project</a></p>
+                </div>
                 </div>
               </div>
             )
