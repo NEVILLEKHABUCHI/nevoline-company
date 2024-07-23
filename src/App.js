@@ -233,14 +233,6 @@ function ContainerCenter({theme,currentPage}){
                 <div className='body'>
                   <h4><i>Website Projects</i></h4>
                 <div>
-                  <img src='/Nevoline_Agrovet.png' alt='Nevoline'/>
-                  <p>This is an e-commerce website for an agrovet providing functionalities for both admin and clients. 
-                    With its efficient way of communication via emails, it can be integrated into a large scale agrovet business.
-                  </p><br/>
-                  <p><b>CLIENT</b>: Nevoline Agrovet Limited</p><br/>
-                 <p><a href='https://myagrovet1.onrender.com' target='_blank' rel='noopener noreferrer'>View Project</a></p>
-                </div>
-                <div>
                   <img src='/Getters_Constitution.jpg' alt='Nevoline'/>
                   <p>
                   This is a constitution website for a group(chama). 
@@ -249,6 +241,14 @@ function ContainerCenter({theme,currentPage}){
                   </p><br/>
                   <p><b>CLIENT</b>: The Go-Getters Youth Group.</p><br/>
                  <p><a href='https://gogetters-constitution.netlify.app/' target='_blank' rel='noopener noreferrer'>View Project</a></p>
+                </div>
+                <div>
+                  <img src='/Nevoline_Agrovet.png' alt='Nevoline'/>
+                  <p>This is an e-commerce website for an agrovet providing functionalities for both admin and clients. 
+                    With its efficient way of communication via emails, it can be integrated into a large scale agrovet business.
+                  </p><br/>
+                  <p><b>CLIENT</b>: Nevoline Agrovet Limited</p><br/>
+                 <p><a href='https://myagrovet1.onrender.com' target='_blank' rel='noopener noreferrer'>View Project</a></p>
                 </div>
                 </div>
               </div>
@@ -292,7 +292,7 @@ function ContainerRight({theme}){
       <div className='top'>
         <img src='./Neville.jpg' alt='Nevoline'/>
         <h3>N.L. KHABUCHI,</h3>
-        <p>C.E.O & Founder Nevoline.</p>
+        <p>C.E.O & Founder, Nevoline.</p>
         <p><i>Software Engineer.</i></p><br/>
         <p><i class="fa-solid fa-quote-left"></i>At Nevoline Tech Solutions, our mission is to empower businesses through cutting-edge technology and creative solutions. 
         Whether you're looking to build a dynamic website, create compelling graphics, or seek expert consultation, our team is here to support your goals. 
@@ -300,6 +300,7 @@ function ContainerRight({theme}){
       </div>
       <div className='links'>
         <a href='https://x.com/KhabuchiN?t=Lmpf5wL1TFstO3BK7YK9Dw&s=09' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-x-twitter"></i></a>
+        <a href='https://www.facebook.com/profile.php?id=61562851807121&mibextid=ZbWKwL' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-facebook"></i></a>
         <a href='https://www.linkedin.com/in/neville-khabuchi-b65478261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' target='_blank' rel='noopener noreferrer'><i class="fa-brands fa-linkedin"></i></a>
         <a href='https://github.com/NEVILLEKHABUCHI' target='_blank' rel='noopener noreferrer'> <i class="fa-brands fa-github"></i></a>
         </div>
