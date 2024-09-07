@@ -232,16 +232,29 @@ function ContainerCenter({theme,currentPage}){
                 </div>
                 <div className='body'>
                   <h4><i>Website Projects</i></h4>
+
+                  <div>
+                    <img src='/Western_Conglomerate_State.jpg' alt='Nevoline'/>
+                    <p>
+                    This is a company website for The Western Conglomerate State. 
+                    The website advertises the purpose and main goals of the company in relation to the company's visions and missions. 
+                    The website showcases the company's projects for every particular service offered and allows clients to book appointments.
+                    </p><br/>
+                    <p><b>CLIENT</b>: The Western Conglomerate State</p>
+                    <p><a href='https://conglomerate-phi.vercel.app/' target='_blank' rel='noopener noreferrer'>View Project</a></p>
+                  </div>
+
                 <div>
                   <img src='/Getters_Constitution.jpg' alt='Nevoline'/>
                   <p>
                   This is a constitution website for a group(chama). 
-                  It provides for table of contents which directs a user to various articles and sub-articles of that particular constitution thereby making work 
+                  It provides for a table of contents which directs a user to various articles and sub-articles of that particular constitution thereby making work 
                   easier for a member who wants to go through the constitution. It is better than reading several pdf pages.
                   </p><br/>
                   <p><b>CLIENT</b>: The Go-Getters Youth Group.</p><br/>
                  <p><a href='https://gogetters-constitution.netlify.app/' target='_blank' rel='noopener noreferrer'>View Project</a></p>
                 </div>
+
                 <div>
                   <img src='/Nevoline_Agrovet.png' alt='Nevoline'/>
                   <p>This is an e-commerce website for an agrovet providing functionalities for both admin and clients. 
