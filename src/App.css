@@ -22,14 +22,14 @@ display: flex;
 gap: 1vw;
 }
 .containerLeftTop div p{
-width: 50px;
-height: 50px;
-border-radius: 50%;
+width: 55px;
+height: 55px;
+/* border-radius: 50%; */
 }
 .containerLeftTop div p img {
 width: inherit;
 height: inherit;
-border-radius: 50%;
+/* border-radius: 50%; */
 object-fit: cover;
 }
 .containerLeftTop div h2{
@@ -37,7 +37,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 color: white;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .containerLeftTop button{
 display: none;
@@ -64,7 +64,7 @@ cursor: pointer;
 }
 .containerLeftBody button #icon{
 font-size: 1rem;
-color: #7BAFD4;
+color: #228B22;
 }
 .containerLeftBody button p{
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -75,7 +75,7 @@ color: white;
 color: white;
 }
 .containerLeftBody .active  p{
-color: #7BAFD4;
+color: #228B22;
 }
 .containerLeftBottom{
 width: inherit;
@@ -95,7 +95,7 @@ color: white;
 }
 .containerLeftBottom #icon {
 font-size: 1.2rem;
-color: #7BAFD4;
+color: #228B22;
 }
 .containerLeftBottom p{
 display: flex;
@@ -134,7 +134,7 @@ justify-content: center;
 }
 .homeContainer .top div p span{
 width: 4vw;
-border: 2px solid #7BAFD4;
+border: 2px solid #228B22;
 border-radius: 10px;
 }
 .homeContainer .body {
@@ -231,7 +231,7 @@ justify-content: center;
 }
 .aboutContainer .top div p span{
 width: 4vw;
-border: 2px solid #7BAFD4;
+border: 2px solid #228B22;
 border-radius: 10px;
 }
 .aboutContainer .body {
@@ -263,7 +263,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 .aboutContainer .body h3{
 display: flex;
 justify-content: center;
-color: #7BAFD4;
+color: #228B22;
 }
 .aboutContainer .body #underline{
 display: flex;
@@ -301,7 +301,7 @@ justify-content: center;
 }
 .servicesContainer .top div p span{
 width: 4vw;
-border: 2px solid #7BAFD4;
+border: 2px solid #228B22;
 border-radius: 10px;
 }
 .servicesContainer .body {
@@ -346,7 +346,7 @@ padding-bottom: 4vh;
 .servicesContainer .body div h3{
   display: flex;
   justify-content: center;
-  color: #7BAFD4;
+  color: #228B22;
 }
 
 /* Styling the projects container in the containerCenter component */
@@ -368,7 +368,7 @@ justify-content: center;
 }
 .projectsContainer .top div p span{
 width: 4vw;
-border: 2px solid #7BAFD4;
+border: 2px solid #228B22;
 border-radius: 10px;
 }
 .projectsContainer .body {
@@ -397,7 +397,7 @@ border-radius: 10px;
     background-color: #7BAFD4;
     }
     .projectsContainer .body h4{
-      color: #7BAFD4;
+      color: #228B22;
     }
   .projectsContainer .body div{
       width: 30vw;
@@ -418,7 +418,7 @@ border-radius: 10px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .projectsContainer .body div p:nth-of-type(2) b{
-      color: #7BAFD4;
+      color: #228B22;
     }
     .projectsContainer .body div p:nth-of-type(3){
       display: flex;
@@ -427,7 +427,7 @@ border-radius: 10px;
     .projectsContainer .body div p:nth-of-type(3) a {
       text-decoration: none;
       padding: 2px;
-      background-color: #7BAFD4;
+      background-color: #228B22;
       color: black;
       border-radius: 5px;
     }
@@ -450,7 +450,7 @@ justify-content: center;
 }
 .blogsContainer .top div p span{
 width: 4vw;
-border: 2px solid #7BAFD4;
+border: 2px solid #228B22;
 border-radius: 10px;
 }
 .blogsContainer .body {
@@ -519,7 +519,7 @@ overflow-y: scroll;
   font-size: 0.8rem;
 }
 .containerRight .top p:nth-of-type(2){
-  color: #7BAFD4;
+  color: #228B22;
 }
 .containerRight .top p:nth-of-type(3){
   display: flex;
@@ -530,7 +530,7 @@ overflow-y: scroll;
 }
 .containerRight .top p:nth-of-type(3) i{
   font-size: 1.2rem;
-  color: #7BAFD4;
+  color: #228B22;
 }
 .containerRight .links{
   margin-top: 1vh;
@@ -541,7 +541,7 @@ overflow-y: scroll;
 }
 .containerRight .links a{
   text-decoration: none;
-  color: #7BAFD4;
+  color: #228B22;
   font-size: 1.5rem;
 }
 
@@ -567,7 +567,7 @@ overflow-y: scroll;
   display: block;
   margin-top: 5px;
   padding: 2px;
-  background-color: #7BAFD4;
+  background-color: #228B22;
   border: none;
 }
 .containerLeftBody {
@@ -795,7 +795,7 @@ color: black;
 color: black;
 }
 .containerLeftBody.light .active  p{
-color: #7BAFD4;
+color: #228B22;
 }
 .aboutContainer.light .body #underline span{
 border-bottom: 2px solid black;

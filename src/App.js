@@ -47,10 +47,12 @@ function ContainerLeft({theme,onThemeChange,onPageChange,currentPage}){
 }
 // Components for containerLeft
 function ContainerLeftTop({onClick,showDetails,theme}){
+
+  const logoSrc = theme === 'dark' ? 'Nevoline_Logo_Dark.png' : 'Nevoline_Logo_Light.png';
   return(
     <div className={`containerLeftTop ${theme}`}>
       <div>
-        <p><img src='/NL.png' alt='Neville'/></p>
+        <p><img src={logoSrc} alt='Neville'/></p>
         <h2>NEVOLINE</h2>
       </div>
       <button onClick={onClick}>
@@ -95,6 +97,7 @@ function ContainerLeftBottom({showDetails,onThemeChange,theme}){
 }
 
 function ContainerCenter({theme,currentPage}){
+  const logoSrc = theme === 'dark' ? 'Nevoline_LogoD.png' : 'Nevoline_LogoL.png';
   let content;
   switch(currentPage){
     case 'Home':
@@ -115,7 +118,7 @@ function ContainerCenter({theme,currentPage}){
                 </p>
               </div>
               <div>
-                <img src='/NL.png' alt='Nevoline'/>
+                <img src= {logoSrc} alt='Nevoline'/>
               </div>
             </div>
             <div className='content'>
@@ -123,7 +126,7 @@ function ContainerCenter({theme,currentPage}){
                   <img src='/Home.jpg' alt='Nevoline'/>
                 </div>
                 <div>
-                  <p>Let's Create a Website According to Your Requirements &#128512;.</p>
+                  <p>Let's Create a Software Solution According to Your Requirements &#128512;.</p>
                 </div>
             </div>
           </div>
