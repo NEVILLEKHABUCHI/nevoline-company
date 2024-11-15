@@ -577,6 +577,7 @@ overflow-y: scroll;
   display: flex;
   flex-direction: column;
   gap: 2vh;
+  padding: 2vh 0;
 }
 .containerLeftTop button:focus {
   outline: none;
@@ -595,6 +596,9 @@ gap: 5vw;
 .containerLeftBottom{
 width: inherit;
 height: 18vh;
+}
+.containerLeftBottom div {
+  padding: 1vh 0;
 }
 .containerLeftBottom p{
 gap: 4vw;
