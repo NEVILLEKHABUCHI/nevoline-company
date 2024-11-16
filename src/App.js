@@ -79,7 +79,7 @@ function ContainerLeftBottom({showDetails,onThemeChange,theme}){
   return(
     <div className={`containerLeftBottom ${showDetails ? 'show' : ''} ${theme}`}>
       <div>
-      <p><i class="fa solid fa-palette" id='icon'></i><span>Theme</span></p>
+      <p><i className="fa solid fa-palette" id='icon'></i><span>Theme</span></p>
       
       <section>
         <input type='radio' value='light' id='light' name='theme' onChange={onThemeChange} />
@@ -112,9 +112,9 @@ function ContainerCenter({theme,currentPage}){
           <div className='body'>
             <div className='top'>
               <div>
-                <p>Welcome to ⊂◉‿◉つNevoline Tech Solutions⊂◉‿◉つ,where innovation meets perfection.<br></br><br></br>
+                <p>Welcome to Nevoline Tech Solutions, where innovation meets perfection.<br></br><br></br>
                   With our team of experts and iterative mode of development, we are able to underpromise and overdeliver; thereby facilitating for customer 
-                  satisfaction which is our number one goal.
+                  satisfaction which is our ultimate goal.
                 </p>
               </div>
               <div>
@@ -192,7 +192,7 @@ function ContainerCenter({theme,currentPage}){
               <div className='top'>
                 <div>
                   <h1>Services</h1>
-                  <p><span></span></p>
+                  <p id><span></span></p>
                 </div>
               </div>
               <div className='body'>

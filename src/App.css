@@ -1,17 +1,17 @@
 .appContainer{
-width: 80vw;
-height: 80vh;
+width: 99vw;
+height: 99vh;
 display: flex;
 }
 /* Styling the left component */
 .containerLeft {
-width: 15vw;
+width: 20vw;
 height: inherit;
 background-color: #1B1B1B;
 }
 .containerLeftTop{
 width: inherit;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -37,14 +37,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 color: white;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: 'Times New Roman', Times, serif;
 }
 .containerLeftTop button{
 display: none;
 }
 .containerLeftBody{
 width: inherit;
-height: 50vh;
+height: 60vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -79,7 +79,7 @@ color: #228B22;
 }
 .containerLeftBottom{
 width: inherit;
-height: 20vh;
+height: 24vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -108,7 +108,7 @@ color: gray;
 
 /* Styling the center component */
 .containerCenter{
-width: 40vw;
+width: 49vw;
 height: inherit;
 background-color: #111111;
 border-left: 1px solid #2A3439;
@@ -117,13 +117,13 @@ border-right: 1px solid #2A3439;
 }
 /* Styling the homeContainer in the containerCenter component */
 .homeContainer {
-width: 40vw;
-height: 80vh;
+width: 49vw;
+height: 99vh;
 color: white;
 }
 .homeContainer .top {
 width: inherit;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -139,9 +139,10 @@ border-radius: 10px;
 }
 .homeContainer .body {
 width: inherit;
-height: 70vh;
+height: 84vh;
 overflow-y: scroll;
 overflow-x: hidden;
+padding-bottom: 2vh;
 }
 .homeContainer .body::-webkit-scrollbar{
   width: 10px;
@@ -163,8 +164,8 @@ display: flex;
 gap: 1vw;
 }
 .homeContainer .body .top div {
-width: 17vw;
-height: 32vh;
+width: 20vw;
+height: 40vh;
 }
 .homeContainer .body .top div:first-of-type{
 height: max-content;
@@ -172,8 +173,9 @@ padding: 2px;
 margin: 1vh 0;
 }
 .homeContainer .body .top div:first-of-type p{
-font-size: 0.8rem;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.1rem;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 .homeContainer .body .top div:nth-of-type(2) img{
 width: inherit;
@@ -191,8 +193,8 @@ padding-top: 1vh;
 margin: 1vh 0;
 }
 .homeContainer .body .content div {
-width: 17vw;
-height: 32vh;
+width: 20vw;
+height: 40vh;
 }
 .homeContainer .body .content div:first-of-type img{
 width: inherit;
@@ -205,14 +207,15 @@ height: max-content;
 margin-top: 5vh;
 }
 .homeContainer .body .content div:nth-of-type(2) p{
-font-size: 0.8rem;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.1rem;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 
 /* Styling the aboutContainer in the containerCenter content */
 .aboutContainer {
-width: 40vw;
-height: 80vh;
+width: 49vw;
+height: 99vh;
 color: white;
 }
 .aboutContainer::-webkit-scrollbar-thumb:hover{
@@ -220,7 +223,7 @@ background-color: #7BAFD4;
 }
 .aboutContainer .top {
 width: inherit;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -236,7 +239,7 @@ border-radius: 10px;
 }
 .aboutContainer .body {
 width: inherit;
-height: 70vh;
+height: 84vh;
 overflow-y: scroll;
 overflow-x: hidden;
 padding: 1vw;
@@ -257,8 +260,9 @@ padding-bottom: 5vh;
   background-color: #7BAFD4;
   }
 .aboutContainer .body p{
-font-size: 0.8rem;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.1rem;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 .aboutContainer .body h3{
 display: flex;
@@ -278,19 +282,20 @@ border-radius: 10px;
 padding-left: 4vw;
 }
 .aboutContainer .body ul li{
-font-size: 0.8rem;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1.1rem;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 
 /* Styling the servicesContainer */
 .servicesContainer {
-width: 40vw;
-height: 80vh;
+width: 49vw;
+height: 99vh;
 color: white;
 }
 .servicesContainer .top {
 width: inherit;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -306,7 +311,7 @@ border-radius: 10px;
 }
 .servicesContainer .body {
 width: inherit;
-height: 70vh;
+height: 84vh;
 overflow-y: scroll;
 overflow-x: hidden;
 display: flex;
@@ -329,17 +334,18 @@ padding-bottom: 4vh;
   background-color: #7BAFD4;
   }
 .servicesContainer .body div{
-  width: 30vw;
+  width: 35vw;
   height: max-content;
   margin-top: 2vh;
   border: 1px solid white;
-  font-size: 0.8rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
   border-radius: 10px;
   padding: 1vw;
 }
 .servicesContainer .body div img{
-  width: 28vw;
+  width: 32.9vw;
   height: 50vh;
   object-fit: cover;
 }
@@ -351,13 +357,13 @@ padding-bottom: 4vh;
 
 /* Styling the projects container in the containerCenter component */
 .projectsContainer {
-width: 40vw;
-height: 80vh;
+width: 49vw;
+height: 99vh;
 color: white;
 }
 .projectsContainer .top {
 width: inherit;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -373,7 +379,7 @@ border-radius: 10px;
 }
 .projectsContainer .body {
   width: inherit;
-  height: 70vh;
+  height: 84vh;
   overflow-y: scroll;
   overflow-x: hidden;
   display: flex;
@@ -381,7 +387,9 @@ border-radius: 10px;
   /* justify-content: center; */
   align-items: center;
   padding-bottom: 4vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 1.1rem; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
   }
   .projectsContainer .body::-webkit-scrollbar{
     width: 10px;
@@ -400,22 +408,22 @@ border-radius: 10px;
       color: #228B22;
     }
   .projectsContainer .body div{
-      width: 30vw;
+      width: 35vw;
       height: max-content;
       margin-top: 2vh;
       border: 1px solid white;
-      font-size: 0.8rem;
+      font-size: 1.1rem;
       border-radius: 10px;
       padding: 1vw;
   }
     .projectsContainer .body div img{
-      width: 28vw;
+      width: 33vw;
       height: 40vh;
       object-fit: cover;
     }
     .projectsContainer .body div p:nth-of-type(2){
       font-style: italic;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .projectsContainer .body div p:nth-of-type(2) b{
       color: #228B22;
@@ -433,13 +441,13 @@ border-radius: 10px;
     }
 /* Styling the blogs container in the containerCenter component */
 .blogsContainer {
-width: 40vw;
-height: 80vh;
+width: 49vw;
+height: 99vh;
 color: white;
 }
 .blogsContainer .top {
 width: inherit;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -455,7 +463,7 @@ border-radius: 10px;
 }
 .blogsContainer .body {
   width: inherit;
-  height: 70vh;
+  height: 84vh;
   overflow-y: scroll;
  
   }
@@ -474,7 +482,7 @@ border-radius: 10px;
     }
 /* Styling the right component */
 .containerRight{
-width: 25vw;
+width: 30vw;
 height: inherit;
 background-color: #1B1B1B;
 display: flex;
@@ -498,7 +506,7 @@ overflow-y: scroll;
   background-color: #7BAFD4;
   }
 .containerRight .top {
-  width: 20vw;
+  width: 25vw;
   height: max-content;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -534,7 +542,7 @@ overflow-y: scroll;
 }
 .containerRight .links{
   margin-top: 1vh;
-  width: 15vw;
+  width: 20vw;
   display: flex;
   justify-content: space-between;
   /* border: 1px solid white; */
@@ -644,8 +652,11 @@ height: max-content;
 padding: 2px;
 }
 .homeContainer .body .top div:first-of-type p{
-font-size: 0.8rem;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* font-size: 0.8rem;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-size: 1.1rem;
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+font-family: 'Times New Roman', Times, serif;
 }
 .homeContainer .body .content {
 width: inherit;
@@ -690,6 +701,9 @@ border-radius: 10px;
   height: 80vh;
   color: white;
 }
+.servicesContainer .top div p span {
+  width: 15vw;
+}
 .servicesContainer .body {
   width: inherit;
   height: 65vh;
@@ -708,6 +722,9 @@ border-radius: 10px;
   width: 99vw;
   height: 80vh;
   color: white;
+}
+.projectsContainer .top div p span {
+  width: 15vw;
 }
 .projectsContainer .body {
   width: inherit;
