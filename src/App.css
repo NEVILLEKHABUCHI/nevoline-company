@@ -418,7 +418,7 @@ border-radius: 10px;
   }
     .projectsContainer .body div img{
       width: 33vw;
-      height: 40vh;
+      max-height: 100vh;
       object-fit: cover;
     }
     .projectsContainer .body div p:nth-of-type(2){
